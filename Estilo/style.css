@@ -42,12 +42,15 @@ header {
 header > h1 {
     color: white;
     font-size: 3em;
+    line-height: 1em;
     font-family: var(--fonte-destaque);
 }
 
 header > p {
     color: white;
     padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 nav {
