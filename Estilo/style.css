@@ -26,17 +26,17 @@
 }
 
 body {
-    background-color: rgba(243, 248, 173, 0.397);
+    background-color: rgba(195, 204, 206, 0.397);
     font-family: var(--fonte-padrao);
 }
 
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.801));
     text-align: center;
     padding: 10px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 header > h1 {
@@ -44,17 +44,18 @@ header > h1 {
     font-size: 3em;
     line-height: 1em;
     font-family: var(--fonte-destaque);
+    font-weight: normal;
 }
 
 header > p {
     color: white;
-    padding: 10px;
+    padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 nav {
-    background-color: var(--cor5);
+    background-color: black;
     padding: 10px;
     box-shadow: 0 7px 7px rgba(0, 0, 0, 0.164);
     text-align: center;
@@ -70,8 +71,8 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: var(--cor2);
-    color: var(--cor5);
+    background-color: rgb(224, 216, 216);
+    color: black;
 }
 
 main {
@@ -86,16 +87,18 @@ main {
 }
 
 main h1 {
-    color: var(--cor4);
+    color: black;
     font-family: var(--fonte-padrao);
 }
 
 main h2 {
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.801));
     font-family: var(--fonte-padrao);
-    color: var(--cor5);
     font-size: 1.4em;
-    background-image: linear-gradient(to right, var(--cor1), var(--cor3));
-    padding: 3px;
+    padding: 6px;
+    padding-left: 10px;
+    border-radius: 7px;
 }
 
 main p {
@@ -110,7 +113,7 @@ main p {
 main a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor4);
+    color: rgb(15, 138, 25);
 }
 
 main img {
@@ -124,7 +127,7 @@ main img.pequena {
 }
 
 div.video {
-    background-color: var(--cor5);
+    background-color: #333;
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 58%;
@@ -140,7 +143,7 @@ div.video > iframe {
 }
 
 aside {
-    background-color: var(--cor1);
+    background-color: rgb(226, 226, 226);
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -156,7 +159,7 @@ aside > ul {
 
 aside h3 {
     font-size: 1.5em;
-    background-color: var(--cor5);
+    background-color: rgb(127, 125, 136);
     color: white;
     padding: 10px;
     margin: -15px -15px 0 -15px;
@@ -165,7 +168,7 @@ aside h3 {
 
 footer {
     text-align: center;
-    background-color: var(--cor5);
+    background-color: #333333;
     padding: 7px;
 }
 
