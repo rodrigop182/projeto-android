@@ -44,6 +44,7 @@ header > h1 {
     font-size: 3em;
     line-height: 1em;
     font-family: var(--fonte-destaque);
+    font-weight: normal;
 }
 
 header > p {
